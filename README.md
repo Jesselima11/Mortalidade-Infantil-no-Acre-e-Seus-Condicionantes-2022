@@ -53,8 +53,8 @@ entre distância e PIB per capita.
 * Para a análise espacial conjunta dos determinantes de saúde, foram elaborados mapas coropléticos bivariados cruzando a taxa de mortalidade infantil com cinco covariáveis do estudo: PIB per capita, cobertura potencial da Atenção Primária à Saúde, acessibilidade geográfica, escolaridade materna e cobertura de pré-natal. Nessa etapa, cada indicador foi dividido em tercis — baixo, médio e alto —, formando uma legenda em matriz com nove classes de cores (3×3). Portanto, o método utilizado nos mapas bivariados é o dos tercis.
 * As tabelas foram consolidadas em uma planilha-mestre única, utilizando o código do município como chave de junção comum a todas as fontes. O resultado é uma tabela de atributos com 22 linhas e uma coluna por indicador, importada e tratada diretamente no QGIS. Por trabalhar com dados brutos, muitas informações estavam em números absolutos, e para evitar erros, diversas correções precisaram ser feita no banco de dados utilizando a Calculadora de Campo nativa do QGIS, em ambiente SQL, para realizar a correção, síntese e a organização dos dados para a confecção dos indicadores e posterior síntese dos mapas. 
 * A planilha-mestre foi unida à malha municipal oficial do IBGE para o estado do Acre por meio de junção do código do município, permitindo a espacialização de cada indicador. Os produtos cartográficos foram elaborados na Projeção Universal Transversa de Mercator (UTM), Datum SIRGAS2000, Fuso 19 Sul.
-  - A tabela de atributos está disponível em: [tabela.csv](Tabela de atributos AC(2022).csv)
-  - O dicionário de dados
+  - A tabela de atributos está disponível para download em: [Tabela de atributos AC(2022).csv](./Tabela%20de%20atributos%20AC(2022).csv)
+  - O dicionário de dados está disponível em: [Dicionário de Dados.pdf](./Dicion%C3%A1rio%20de%20Dados.pdf)
 
 ---
 
