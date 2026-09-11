@@ -12,7 +12,7 @@
 ---
 
 ## 2. Área de Estudo e Indicadores Selecionados
-![Indicadores](Indicadores.png)
+![Indicadores](RecortIndicadores.jpg)
 
 * Recorte Espacial: Munícipios do Estado do Acre.
 * Ano de Referência: 2022
