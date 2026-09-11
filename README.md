@@ -29,7 +29,7 @@
 ---
 
 ## 3. Correlação de Pearson
-![Estatísticas](Correlações.jpg)
+![Estatísticas](correlacoes.jpg)
 
 * O coeficiente de correlação de Pearson consiste em uma medida estatística que indica a força e a direção da relação linear entre duas variáveis quantitativas, representada pelo valor de **r**, que varia de -1 a 1, sendo:
   - **Correlação Positiva (r > 0):** As duas variáveis aumentam justas.
