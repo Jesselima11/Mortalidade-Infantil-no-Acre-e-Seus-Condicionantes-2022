@@ -11,8 +11,9 @@
 * Esse trabalho foi feito em conjunto com o Gabriel Silva (@), colega de classe da pós-graduação da ENCE/IBGE, responsável pelas correlações de Pearson, análise de dados em fontes oficiais e confecção do slide/monografia.
 ---
 
-## 2. Recorte Espacial, Temporal e Indicadores
-![](Indicadores.png)
+## 2. Área de Estudo e Indicadores Selecionados
+![Indicadores](Indicadores.png)
+* 
 - Recorte Espacial: Municípios do Estado do Acre
 - Recorte Temporal: Ano de referência 2022
 
