@@ -18,3 +18,16 @@
 * Ano de Referência: 2022
 * A seleção dos indicadores não foi arbitrária nem determinada exclusivamente pela disponibilidade de dados. Ela se apoia no referencial dos Determinantes Sociais da Saúde (DSS), definidos pela Comissão Nacional sobre os Determinantes Sociais da Saúde (CNDSS) como os fatores sociais, econômicos, culturais, étnicos e raciais, psicológicos e comportamentais que influenciam a ocorrência de problemas de saúde e seus fatores de risco na população (BUSS; PELLEGRINI FILHO, 2007).
 * Esse arcabouço orienta diretamente a escolha dos oito indicadores aqui empregados. Revisões da literatura brasileira sobre mortalidade infantil, ao organizarem as variáveis significativamente associadas ao desfecho segundo as camadas do modelo de DSS, identificam de forma consistente a assistência pré-natal e a escolaridade materna na camada de condições de vida e trabalho, e o saneamento básico e a renda na camada de condições socioeconômicas e ambientais gerais.
+* Os indicadores utilizados foram:
+  - Coeficiente de Mortalidade Infantil (CMI) - (Óbitos de menores de 1 ano ÷ Nascidos vivos) × 1.000, por residência; Fonte: DATASUS: SIM e SINASC (2022).
+  - PIB per capita municipal; Cobertura de água por rede geral - PIB total do município ÷ população residente; Fonte: IBGE/SIDRA, Censo 2022.
+  - Cobertura de esgotamento sanitário adequado - % de domicílios com ligação à rede geral de distribuição, utilizada como forma principal; Fonte: Censo IBGE 2022.
+  - Cobertura potencial da APS - (Nº de equipes × parâmetro populacional por equipe) ÷ população do município × 100; Fonte: e-Gestor Atenção Básica (dez/2022).
+  - Escolaridade materna - (Nº de mães na faixa de escolaridade ÷ Total de mães) × 100; Fonte: DATASUS/SINASC (2022).
+  - Cobertura de pré-natal - (Nº de mães na faixa de consultas ÷ Total de mães com pré-natal registrado) × 100; Fonte: DATASUS/SINASC (2022).
+  - Distância e classificação de acessibilidade geográfica - Cálculo do custo de deslocamento em minutos pela rede multimodal (rodoviária, fluvial e aérea) até o centro urbano de referência mais próximo na hierarquia REGIC; Fonte: IBGE, Índice de Acessibilidade Geográfica (2018), 'refinado pela equipe'.
+---
+
+## 3. Correlação de Pearson
+![Indicadores](RecortIndicadores.jpg)
+
