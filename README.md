@@ -28,14 +28,29 @@
   - **Distância e Classificação de Acessibilidade Geográfica:** Cálculo do custo de deslocamento em minutos pela rede multimodal (rodoviária, fluvial e aérea) até o centro urbano de referência mais próximo na hierarquia REGIC; Fonte: IBGE, Índice de Acessibilidade Geográfica (2018), 'refinado pela equipe'.
 ---
 
-## 3. Correlação de Pearson
+## 3. Análises Estatísticas
 ![Estatísticas](correlacoes.jpg)
 
-* O coeficiente de correlação de Pearson consiste em uma medida estatística que indica a força e a direção da relação linear entre duas variáveis quantitativas, representada pelo valor de **r**, que varia de -1 a 1, sendo:
+* Para responder à pergunta de pesquisa, foi calculado o coeficiente de correlação de Pearson (r) entre pares de variáveis, acompanhado do respectivo p-valor, adotando-se o nível de significância de 5% **(p < 0,05)**. O coeficiente de correlação de Pearson consiste em uma medida estatística que indica a força e a direção da relação linear entre duas variáveis quantitativas, representada pelo valor de **r**, que varia de -1 a 1, sendo:
   - **Correlação Positiva (r > 0):** As duas variáveis aumentam justas.
   - **Correlação Negativa (r < 0):** Quando uma variável aumenta, a outra diminui.
   - **Zero ( r = 0):** Não existe relação linear entre as variáveis.
   - **Intensidade:** Quanto mais próximo do 1 ou -1, mais forte é a associação.
     
-* Para responder à pergunta de pesquisa, foi calculado o coeficiente de correlação de Pearson (r) entre pares de variáveis, acompanhado do respectivo p-valor, adotando-se o nível de significância de 5% **(p < 0,05)**.
+* Este trabalho identificou que a cobertura de pré-natal adequada e a escolaridade materna, incorporadas ao estudo em sua fase final, apresentam associação significativa e mais robusta com a mortalidade infantil do que a capacidade econômica municipal isoladamente. A cobertura de pré-natal adequada, em particular, constitui o segundo achado mais forte de todo o estudo (r = -0,65; p = 0,001), superado apenas pela associação
+entre distância e PIB per capita.
+* Um achado adicional merece destaque: o isolamento geográfico, que explica fortemente a capacidade econômica municipal, não explica de forma robusta o acesso à assistência pré-natal (r = -0,11; p = 0,619) nem, de forma conclusiva, a escolaridade materna (r = -0,42; p = 0,050, no limiar da significância). Isso sugere que o acesso à assistência materna no Acre responde a determinantes distintos da simples distância geográfica, possivelmente relacionados à organização e à gestão local dos serviços de saúde.
+---
+
+## 4. Bancos de Dados e Análise Espacial
+
+* A organização do banco de dados seguiu quatro etapas:
+  - Padronização e tratamento dos dados tabulares;
+  - Integração com a base geoespacial municipal;
+  - Definição do método de classificação e da simbologia cartográfica;
+  - Análise estatística de correlação entre os indicadores.
+
+* Para a análise espacial conjunta dos determinantes de saúde, foram elaborados mapas coropléticos bivariados cruzando a taxa de mortalidade infantil com cinco covariáveis do estudo: PIB per capita, cobertura potencial da Atenção Primária à Saúde, acessibilidade geográfica, escolaridade materna e cobertura de pré-natal. Nessa etapa, cada indicador foi dividido em tercis — baixo, médio e alto —, formando uma legenda em matriz com nove classes de cores (3×3). Portanto, o método utilizado nos mapas bivariados é o dos tercis.
+* As tabelas foram consolidadas em uma planilha-mestre única, utilizando o código do município como chave de junção comum a todas as fontes. O resultado é uma tabela de atributos com 22 linhas e uma coluna por indicador, importada e tratada diretamente no QGIS. Por trabalhar com dados brutos, muitas informações estavam em números absolutos, e para evitar erros, diversas correções precisaram ser feita no banco de dados utilizando a Calculadora de Campo nativa do QGIS, em ambiente SQL, para realizar a correção, síntese e a organização dos dados para a confecção dos mapas. 
+* A planilha-mestre foi unida à malha municipal oficial do IBGE para o estado do Acre por meio de junção do código do município, permitindo a espacialização de cada indicador. Os produtos cartográficos foram elaborados na Projeção Universal Transversa de Mercator (UTM), Datum SIRGAS2000, Fuso 19 Sul.
 
