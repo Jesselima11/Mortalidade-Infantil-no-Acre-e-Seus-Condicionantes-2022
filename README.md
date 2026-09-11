@@ -29,5 +29,7 @@
 ---
 
 ## 3. Correlação de Pearson
-![Indicadores](RecortIndicadores.jpg)
+![Estatísticas](Correlações.jpg)
+
+* a
 
