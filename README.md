@@ -59,3 +59,23 @@ entre distância e PIB per capita.
 ---
 
 ## 5. Mapas Coropléticos Bivariados:
+
+![mortacess.png](Mapa Mortalidade x Acessibilidade Geográfica.png)
+
+---
+
+## 6. Conclusão
+
+* Conclui-se que a Mortalidade Infantil no Acre deve ser analisada de forma multidimensional, não sendo possível afirmar que apenas um indicador é o suficiente para evidenciar o aumento ou diminuição do CMI. Os resultados encontrados demonstraram que a cobertura pré-natal adequada (sete acompanhamentos ou mais realizados) e mães que completaram o ensino médio (doze anos ou mais de educação) apresentaram associação significativa ao CMI. A cobertura de pré-natal adequada, em particular, constitui o segundo achado mais forte de todo o estudo (r = -0,65; p = 0,001), superado apenas pela associação entre distância e PIB per capita.
+* A principal contribuição deste trabalho é, portanto, dupla. Por um lado, confirma que a organização territorial e a acessibilidade aos centros urbanos de referência constituem uma dimensão relevante para compreender as desigualdades econômicas no Acre. Por outro, revela que os determinantes mais diretamente ligados à assistência à saúde materna, cobertura de pré-natal e escolaridade, explicam a mortalidade infantil de forma mais robusta do que a capacidade econômica municipal, e que esses determinantes seguem uma lógica relativamente independente da distância geográfica.
+  - Como principais limitações, destacam-se: o tamanho reduzido da amostra (n = 22 municípios), que restringe o poder estatístico dos testes de correlação; a ausência de dados formais de saneamento para a maior parte dos municípios no SNIS, que exigiu a substituição por dados censitários de metodologia distinta; a natureza do indicador de cobertura de APS, que mede capacidade instalada e não atendimento efetivo; e a natureza transversal e ecológica da análise, que não permite inferências causais nem individuais.
+  - Como agenda para pesquisas futuras, sugere-se a ampliação da série temporal para análise longitudinal, a investigação dos fatores de gestão municipal e organização local dos serviços de saúde que possam explicar a cobertura de pré-natal de forma mais direta do que a distância geográfica, e a aplicação de modelos de regressão múltipla que permitam controlar simultaneamente o efeito de todas as variáveis analisadas.
+
+---
+
+## 7. Bibliografia
+![bibliografia.jpg](Bibliografia.jpg)
+
+* Para quem quiser se aprofundar na temática, disponibilizo a bibliografia utilizada para a confecção desse trabalho.
+
+### **Obrigado!**
