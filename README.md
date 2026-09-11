@@ -31,13 +31,13 @@
 ## 3. Análises Estatísticas
 ![Estatísticas](correlacoes.jpg)
 
-* Para responder à pergunta de pesquisa, foi calculado o coeficiente de correlação de Pearson (r) entre pares de variáveis, acompanhado do respectivo p-valor, adotando-se o nível de significância de 5% ($p < 0,05$). O coeficiente de correlação de Pearson consiste em uma medida estatística que indica a força e a direção da relação linear entre duas variáveis quantitativas, representada pelo valor de **r**, que varia de -1 a 1, sendo:
+* Para responder à pergunta de pesquisa, foi calculado o coeficiente de correlação de Pearson ($r$) entre pares de variáveis, acompanhado do respectivo p-valor, adotando-se o nível de significância de 5% ($p < 0,05$). O coeficiente de correlação de Pearson consiste em uma medida estatística que indica a força e a direção da relação linear entre duas variáveis quantitativas, representada pelo valor de **r**, que varia de -1 a 1, sendo:
   - **Correlação Positiva ($r > 0$):** As duas variáveis aumentam justas.
   - **Correlação Negativa ($r < 0$):** Quando uma variável aumenta, a outra diminui.
   - **Zero ($r = 0$):** Não existe relação linear entre as variáveis.
   - **Intensidade:** Quanto mais próximo do 1 ou -1, mais forte é a associação.
     
-* Este trabalho identificou que a cobertura de pré-natal adequada e a escolaridade materna, incorporadas ao estudo em sua fase final, apresentam associação significativa e mais robusta com a mortalidade infantil do que a capacidade econômica municipal isoladamente. A cobertura de pré-natal adequada, em particular, constitui o segundo achado mais forte de todo o estudo ($r = -0,65; p = 0,001$), superado apenas pela associação
+* Este trabalho identificou que a cobertura de pré-natal adequada e a escolaridade materna apresentam associação significativa e mais robusta com a mortalidade infantil do que a capacidade econômica municipal isoladamente. A cobertura de pré-natal adequada, em particular, constitui o segundo achado mais forte de todo o estudo ($r = -0,65; p = 0,001$), superado apenas pela associação
 entre distância e PIB per capita.
 * Um achado adicional merece destaque: o isolamento geográfico, que explica fortemente a capacidade econômica municipal, não explica de forma robusta o acesso à assistência pré-natal ($r = -0,11$; $p = 0,619$) nem, de forma conclusiva, a escolaridade materna ($r = -0,42$; $p = 0,050$, no limiar da significância). Isso sugere que o acesso à assistência materna no Acre responde a determinantes distintos da simples distância geográfica, possivelmente relacionados à organização e à gestão local dos serviços de saúde.
 ---
@@ -66,7 +66,7 @@ entre distância e PIB per capita.
 ![pibacess.png](Mapa_PIB_AcesGeo.jpg)
 
 * Os achados revelam dois eixos explicativos independentes para a mortalidade infantil no Acre: o territorial-econômico e o de assistência materna. Enquanto o isolamento geográfico condiciona fortemente a capacidade econômica municipal ($r = -0,67$; $p = 0,001$), se opondo ao leste acessível e de maior PIB ao oeste remoto de menor PIB, ele não explica diretamente o desfecho em saúde. Por outro lado, a cobertura de pré-natal e a escolaridade materna explicam a mortalidade infantil de forma robusta e direta, demonstrando que os determinantes da assistência à saúde gestacional seguem uma lógica territorial autônoma em relação à distância física aos polos urbanos.
-  - Diferente dos mapas a seguir, esse se apresentou mais homogêneo por predominar a presença de cores do extremo eixo X ou Y, evidenciando visualmente o achado estatística supracitado.
+  - Diferente dos mapas a seguir, esse se apresentou mais homogêneo por predominar a presença de cores do extremo eixo X ou Y, evidenciando visualmente o achado estatístico.
 
 ### 5.2 CMI e Escolaridade Materna
 ![cmiescolaridade.png](Mapa_CMI_EscolMaterna.jpg)
@@ -76,7 +76,7 @@ entre distância e PIB per capita.
 ### 5.3 CMI e Cobertura Pré-Natal
 ![cmiprenat.png](Mapa_CMI_Prenatal.jpg)
 
-* Enquanto a cobertura inadequada (1 a 3 atendimentos) exibiu a maior correlação positiva de todo o estudo ($r = +0,70$; $p = 0,001$), demonstrando que a insuficiência de consultas eleva diretamente o risco de óbito infantil, a cobertura adequada ($\ge 7$ atendimentos) apresentou uma forte correlação negativa ($r = -0,65$; $p = 0,001$), confirmando que a assistência gestacional completa exerce um poderoso efeito protetivo na redução da mortalidade no território.
+* Enquanto a cobertura inadequada (1 a 3 atendimentos) exibiu a maior correlação positiva de todo o estudo ($r = +0,70$; $p = 0,001$), demonstrando que a insuficiência de consultas eleva diretamente o risco de óbito infantil, a cobertura adequada (7 ou mais atendimentos) apresentou uma forte correlação negativa ($r = -0,65$; $p = 0,001$), confirmando que a assistência gestacional completa exerce um poderoso efeito protetivo na redução da mortalidade no território.
   - **Achado relevante:** a cobertura de pré-natal adequada e a escolaridade materna correlacionam-se fortemente entre si (r = 0,63; p = 0,002), sugerindo que ambas compartilham determinantes comuns, possivelmente relacionados ao capital social e informacional das famílias.
 
 ---
