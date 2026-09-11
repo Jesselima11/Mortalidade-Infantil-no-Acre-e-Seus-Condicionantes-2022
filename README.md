@@ -8,7 +8,7 @@
 * Foram utilizados oito indicadores, construídos a partir de bases públicas do IBGE, do DATASUS e do Ministério da Saúde, integrados em ambiente de Sistema de Informação Geográfica. A análise empregou o coeficiente de correlação de Pearson e a produção de mapas temáticos coropléticos bivariados, cruzando a mortalidade infantil com PIB per capita, acessibilidade geográfica, escolaridade materna e cobertura de pré-natal.
 * Para a realização desse projeto utilizei o QGIS para o mapeamento e análises de SIG e PostgreSQL, além do Excel para correções no banco de dados. O plugin utilizado para a geração da legenda bivariada dos mapas foi o "Bivariate legend".
 * O presente estudo foi desenvolvido como Projeto Final da disciplina de Sistemas de Informação Geográfica do curso de Pós-graduação em Análise Ambiental e Gestão do Território (ENCE/IBGE), apresentado em formato de monografia. Além disso, o trabalho está em fase final de elaboração para submissão em formato de artigo científico.
-* Esse trabalho foi feito em conjunto com o [Gabriel Silva](https://www.linkedin.com/in/santosgabrielma/), colega de classe da pós-graduação da ENCE/IBGE, responsável pelas correlações de Pearson, análise de dados em fontes oficiais e confecção do slide/monografia, enquanto a minha pessoa ficou responsável pela confecção e correção do banco de dados (Excel e SQL), além da síntese dos indicadores e cartografia no QGIS.
+* Esse trabalho foi feito em conjunto com o Geógrafo [Gabriel Silva](https://www.linkedin.com/in/santosgabrielma/), colega de classe da pós-graduação da ENCE/IBGE, responsável pelas correlações de Pearson, análise de dados em fontes oficiais e confecção do slide/monografia, enquanto a minha pessoa ficou responsável pela confecção e correção do banco de dados (Excel e SQL), além da síntese dos indicadores, análise de dados espaciais e cartografia no QGIS.
 ---
 
 ## 2. Área de Estudo e Indicadores Selecionados
@@ -31,15 +31,15 @@
 ## 3. Análises Estatísticas
 ![Estatísticas](correlacoes.jpg)
 
-* Para responder à pergunta de pesquisa, foi calculado o coeficiente de correlação de Pearson (r) entre pares de variáveis, acompanhado do respectivo p-valor, adotando-se o nível de significância de 5% **(p < 0,05)**. O coeficiente de correlação de Pearson consiste em uma medida estatística que indica a força e a direção da relação linear entre duas variáveis quantitativas, representada pelo valor de **r**, que varia de -1 a 1, sendo:
-  - **Correlação Positiva (r > 0):** As duas variáveis aumentam justas.
-  - **Correlação Negativa (r < 0):** Quando uma variável aumenta, a outra diminui.
-  - **Zero ( r = 0):** Não existe relação linear entre as variáveis.
+* Para responder à pergunta de pesquisa, foi calculado o coeficiente de correlação de Pearson (r) entre pares de variáveis, acompanhado do respectivo p-valor, adotando-se o nível de significância de 5% ($p < 0,05$). O coeficiente de correlação de Pearson consiste em uma medida estatística que indica a força e a direção da relação linear entre duas variáveis quantitativas, representada pelo valor de **r**, que varia de -1 a 1, sendo:
+  - **Correlação Positiva ($r > 0$):** As duas variáveis aumentam justas.
+  - **Correlação Negativa ($r < 0$):** Quando uma variável aumenta, a outra diminui.
+  - **Zero ($r = 0$):** Não existe relação linear entre as variáveis.
   - **Intensidade:** Quanto mais próximo do 1 ou -1, mais forte é a associação.
     
-* Este trabalho identificou que a cobertura de pré-natal adequada e a escolaridade materna, incorporadas ao estudo em sua fase final, apresentam associação significativa e mais robusta com a mortalidade infantil do que a capacidade econômica municipal isoladamente. A cobertura de pré-natal adequada, em particular, constitui o segundo achado mais forte de todo o estudo (r = -0,65; p = 0,001), superado apenas pela associação
+* Este trabalho identificou que a cobertura de pré-natal adequada e a escolaridade materna, incorporadas ao estudo em sua fase final, apresentam associação significativa e mais robusta com a mortalidade infantil do que a capacidade econômica municipal isoladamente. A cobertura de pré-natal adequada, em particular, constitui o segundo achado mais forte de todo o estudo ($r = -0,65; p = 0,001$), superado apenas pela associação
 entre distância e PIB per capita.
-* Um achado adicional merece destaque: o isolamento geográfico, que explica fortemente a capacidade econômica municipal, não explica de forma robusta o acesso à assistência pré-natal (r = -0,11; p = 0,619) nem, de forma conclusiva, a escolaridade materna (r = -0,42; p = 0,050, no limiar da significância). Isso sugere que o acesso à assistência materna no Acre responde a determinantes distintos da simples distância geográfica, possivelmente relacionados à organização e à gestão local dos serviços de saúde.
+* Um achado adicional merece destaque: o isolamento geográfico, que explica fortemente a capacidade econômica municipal, não explica de forma robusta o acesso à assistência pré-natal ($r = -0,11$; $p = 0,619$) nem, de forma conclusiva, a escolaridade materna ($r = -0,42$; $p = 0,050$, no limiar da significância). Isso sugere que o acesso à assistência materna no Acre responde a determinantes distintos da simples distância geográfica, possivelmente relacionados à organização e à gestão local dos serviços de saúde.
 ---
 
 ## 4. Bancos de Dados e Análise Espacial
@@ -60,7 +60,21 @@ entre distância e PIB per capita.
 
 ## 5. Mapas Coropléticos Bivariados:
 
-![mortacess.png](Mapa Mortalidade x Acessibilidade Geográfica.png)
+### 5.1 PIB per capita e Acessibilidade Geográfica
+![pibacess.png](Mapa_PIB_AcesGeo.jpg)
+
+* Os achados revelam dois eixos explicativos independentes para a mortalidade infantil no Acre: o territorial-econômico e o de assistência materna. Enquanto o isolamento geográfico condiciona fortemente a capacidade econômica municipal ($r = -0,67$; $p = 0,001$), se opondo ao leste acessível e de maior PIB ao oeste remoto de menor PIB, ele não explica diretamente o desfecho em saúde. Por outro lado, a cobertura de pré-natal e a escolaridade materna explicam a mortalidade infantil de forma robusta e direta, demonstrando que os determinantes da assistência à saúde gestacional seguem uma lógica territorial autônoma em relação à distância física aos polos urbanos.
+
+### 5.2 CMI e Escolaridade Materna
+![cmiescolaridade.png](Mapa_CMI_EscolMaterna.jpg)
+
+* Há  uma nítida inversão de polaridade no coeficiente de Pearson ($r$): enquanto a baixa escolaridade (1 a 3 anos de estudo) apresenta uma correlação positiva moderada com o CMI ($r = +0,49$; $p = 0,022$), indicando que a menor instrução agrava as taxas de óbito infantil, a alta escolaridade ($\ge 12$ anos) exibe uma correlação negativa ($r = -0,46$; $p = 0,032$), demonstrando um efeito protetivo em que a maior instrução materna se associa diretamente à redução da mortalidade infantil no território.
+
+### 5.3 CMI e Cobertura Pré-Natal
+![cmiprenat.png](Mapa_CMI_Prenatal.jpg)
+
+* Enquanto a cobertura inadequada (1 a 3 atendimentos) exibiu a maior correlação positiva de todo o estudo ($r = +0,70$; $p = 0,001$), demonstrando que a insuficiência de consultas eleva diretamente o risco de óbito infantil, a cobertura adequada ($\ge 7$ atendimentos) apresentou uma forte correlação negativa ($r = -0,65$; $p = 0,001$), confirmando que a assistência gestacional completa exerce um poderoso efeito protetivo na redução da mortalidade no território.
+  - **Achado relevante:** a cobertura de pré-natal adequada e a escolaridade materna correlacionam-se fortemente entre si (r = 0,63; p = 0,002), sugerindo que ambas compartilham determinantes comuns, possivelmente relacionados ao capital social e informacional das famílias.
 
 ---
 
