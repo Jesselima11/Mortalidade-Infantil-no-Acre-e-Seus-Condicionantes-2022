@@ -60,10 +60,13 @@ entre distância e PIB per capita.
 
 ## 5. Mapas Coropléticos Bivariados:
 
+**Apesar dos diversos indicadores pesquisados e sintetizados, apenas os que apresentaram correlação e significância estatística foram sintetizados**
+
 ### 5.1 PIB per capita e Acessibilidade Geográfica
 ![pibacess.png](Mapa_PIB_AcesGeo.jpg)
 
 * Os achados revelam dois eixos explicativos independentes para a mortalidade infantil no Acre: o territorial-econômico e o de assistência materna. Enquanto o isolamento geográfico condiciona fortemente a capacidade econômica municipal ($r = -0,67$; $p = 0,001$), se opondo ao leste acessível e de maior PIB ao oeste remoto de menor PIB, ele não explica diretamente o desfecho em saúde. Por outro lado, a cobertura de pré-natal e a escolaridade materna explicam a mortalidade infantil de forma robusta e direta, demonstrando que os determinantes da assistência à saúde gestacional seguem uma lógica territorial autônoma em relação à distância física aos polos urbanos.
+  - Diferente dos mapas a seguir, esse se apresentou mais homogêneo por predominar a presença de cores do extremo eixo X ou Y, evidenciando visualmente o achado estatística supracitado.
 
 ### 5.2 CMI e Escolaridade Materna
 ![cmiescolaridade.png](Mapa_CMI_EscolMaterna.jpg)
